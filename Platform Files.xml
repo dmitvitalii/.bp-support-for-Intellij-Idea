@@ -1,0 +1,26 @@
+<filetype binary="false" description="Files!" name="Platform Files">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="//" />
+      <option name="COMMENT_START" value="/*" />
+      <option name="COMMENT_END" value="*/" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+      <option name="HAS_STRING_ESCAPES" value="true" />
+    </options>
+    <!-- Orange -->
+    <keywords keywords=",;:;false;true" ignore_case="false" />
+    <!--Violet -->
+    <keywords2 keywords="android_app;art_cc_binary;art_cc_defaults;art_cc_library;art_cc_test;art_cc_test_library;art_debug_defaults;art_global_defaults;blueprint_go_binary;bootstrap_core_go_binary;bootstrap_go_binary;bootstrap_go_package;cc_benchmark;cc_benchmark_host;cc_binary;cc_binary_host;cc_defaults;cc_library;cc_library_headers;cc_library_host_shared;cc_library_host_static;cc_library_shared;cc_library_static;cc_object;cc_prebuilt_binary;cc_prebuilt_library_shared;cc_prebuilt_library_static;cc_test;cc_test_host;cc_test_library;clang_binary_host;clang_tblgen;filegroup;fluoride_defaults;force_build_llvm_components_defaults;genrule;gensrcs;hal2vts;java_binary;java_binary_host;java_library;java_library_host;java_library_static;llndk_library;llvm_defaults;llvm_tblgen;ndk_headers;ndk_library;ndk_prebuilt_library;ndk_prebuilt_object;ndk_prebuilt_shared_stl;ndk_prebuilt_static_stl;phony;prebuilt_java_library;prebuilt_sdk;preprocessed_ndk_headers;toolchain_library" />
+    <!-- Cyan -->
+    <!--<keywords3 keywords="" />-->
+    <!-- Red -->
+    <!--<keywords4 keywords="" />-->
+  </highlighting>
+  <extensionMap>
+    <mapping ext="bp" />
+  </extensionMap>
+</filetype>
